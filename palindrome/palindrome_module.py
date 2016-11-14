@@ -1,8 +1,14 @@
 def palindrome(str):
-    return
+    str = str.lower()
+    str = str.replace(" ","")
+
+    return str  
+
 
 
 def main():
+    print(palindrome("Anna"))
+    
     return
 
 
